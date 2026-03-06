@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:gravity="center"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="4dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -29,7 +29,21 @@
             android:textSize="13sp"
             android:textColor="#AAAAAA"
             android:gravity="center"
-            android:layout_marginBottom="32dp"/>
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Connection Indicator Banner -->
+        <TextView
+            android:id="@+id/tvConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚪ Checking server..."
+            android:textColor="#AAAAAA"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#1E1E1E"
+            android:layout_marginBottom="16dp"/>
 
         <!-- IP Address Card -->
         <androidx.cardview.widget.CardView
